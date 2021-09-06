@@ -20,21 +20,21 @@ public class speakEnglishScript : MonoBehaviour {
     int moduleId;
     private bool moduleSolved;
 
-    public List<string> phrases = new List<string> {
+    private List<string> phrases = new List<string> {
         "Hello", "Привет", "γεια σας", "Bonjour", "Բարեւ", "Hello",
         "Goodbye", "До Свидания", "αντίο", "Au revoir", "ցտեսություն", "Faida",
-        "My name is Cody", "Меня Зовут Коди", "Το όνομά μου είναι Κοδι", "Mon nom est cody", "իմ անունը cody է", "Jina langu ni Cody",
+        "My name is Cody", "Меня Зовут Коди", "Το όνομά μου είναι Κοδι", "Je m'appelle Cody", "իմ անունը cody է", "Jina langu ni Cody",
         "Death is painful", "Смерть болезненна", "Ο θάνατος είναι επώδυνος", "La mort est douloureuse", "մահը ցավալի է", "Kifo ni chungu",
         "This bomb is going to explode", "эта бомба взорвется", "αυτή η βόμβα θα εκραγεί", "Cette bombe va exploser", "այս ռումբը մտադիր է պայթել", "Bomu hili litakuja",
         "Confusion", "Hеразбериха", "Σύγχυση", "Confusion", "Խառնաշփոթություն", "mkanganyiko",
         "I don't speak English", "Я не говорю по английски", "Δεν μιλώ αγγλικά", "Je ne parle pas anglais", "Ես անգլերեն չեմ խոսում", "Sizungumzi Kiingereza",
         "I hate English", "Я ненавижу английский", "Μισώ τα αγγλικά", "Je déteste l'anglais", "Ես ատում եմ անգլերենը", "Ninapenda Kiingereza",
-        "How are you?", "как твои дела", "Πώς είσαι", "Comment vas-tu", "Ինչպես ես", "Habari yako"
+        "How are you?", "как твои дела", "Πώς είσαι", "Comment ça va", "Ինչպես ես", "Habari yako"
     };
-    public List<int> setNumbers = new List<int> { 0, 1, 2, 3, 4, 5, 6, 7, 8 };
-    public List<int> indexNumbers = new List<int> { 1, 2, 3, 4, 5 };
-    public List<string> selected = new List<string> { };
-    public List<int> order = new List<int> { 0, 1, 2 };
+    private List<int> setNumbers = new List<int> { 0, 1, 2, 3, 4, 5, 6, 7, 8 };
+    private List<int> indexNumbers = new List<int> { 1, 2, 3, 4, 5 };
+    private List<string> selected = new List<string> { };
+    private List<int> order = new List<int> { 0, 1, 2 };
     
     void Awake () {
         moduleId = moduleIdCounter++;
