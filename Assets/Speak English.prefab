@@ -235,7 +235,7 @@ GameObject:
   - component: {fileID: 114843576789044198}
   - component: {fileID: 114464304622317962}
   m_Layer: 0
-  m_Name: Template
+  m_Name: Speak English
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -321,7 +321,7 @@ Transform:
   m_GameObject: {fileID: 1365842610002960}
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 0.0192, z: -0.0153}
-  m_LocalScale: {x: 0.0009999999, y: 0.0010000004, z: 1.0000005}
+  m_LocalScale: {x: 0.00077, y: 0.0010000004, z: 1.0000005}
   m_Children: []
   m_Father: {fileID: 4257340207950476}
   m_RootOrder: 4
@@ -334,7 +334,7 @@ Transform:
   m_GameObject: {fileID: 1270522889887732}
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 0.0192, z: -0.035400003}
-  m_LocalScale: {x: 0.0009999999, y: 0.0010000004, z: 1.0000005}
+  m_LocalScale: {x: 0.00077, y: 0.0010000004, z: 1.0000005}
   m_Children: []
   m_Father: {fileID: 4257340207950476}
   m_RootOrder: 7
@@ -490,7 +490,7 @@ Transform:
   m_GameObject: {fileID: 1114409165394074}
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 0.0192, z: -0.0559}
-  m_LocalScale: {x: 0.0009999999, y: 0.0010000004, z: 1.0000005}
+  m_LocalScale: {x: 0.00077, y: 0.0010000004, z: 1.0000005}
   m_Children: []
   m_Father: {fileID: 4257340207950476}
   m_RootOrder: 10
@@ -1092,7 +1092,7 @@ MonoBehaviour:
   - {fileID: 114825484047100634}
   - {fileID: 114208468080190546}
   IsPassThrough: 0
-  ChildRowLength: 0
+  ChildRowLength: 1
   Highlight: {fileID: 114570430299588062}
   SelectableColliders: []
   DefaultSelectableIndex: 0
